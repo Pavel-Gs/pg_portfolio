@@ -2,7 +2,7 @@
 export const Project3 = () => {
 	return (<section className='project-description-section'>
 		<div className='icon-div'><i className='fa-solid fa-file-lines' /><h3>THIS PORTFOLIO</h3></div>
-		<p>Here I've collected all of my student projects (both of them, haha) and organized them via cards, with links and descriptions. Card's info is stored in the remote *.json file, which is fetched and mapped when loaded.</p>
+		<p>Here I've collected all of my student projects (both of them, haha) and organized them via cards, with links and descriptions. The card's info is stored in the remote *.json file, which is fetched and mapped when loaded.</p>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-toolbox' /><h3>TECHNOLOGIES</h3></div>
 		<div className='description-div'><i className='fa-brands fa-react' /><p>React library: mapping/iterating through the components. Also, useState and useEffect hooks are used extensively, which allows for the dynamic seamless update of the content.</p></div>
