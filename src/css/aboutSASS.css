@@ -22,7 +22,7 @@
 #about-section p {
   color: var(--creme);
   text-align: justify;
-  text-shadow: 1px 1px 1px var(--brown);
+  text-shadow: var(--heading-shadow);
 }
 #about-section p a {
   color: inherit;

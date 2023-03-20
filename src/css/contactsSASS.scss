@@ -23,7 +23,7 @@
 	}
 
 	form {
-		background: var(--creme);
+		background: rgba(252, 234, 197, 0.85);
 		display: flex;
 		flex-direction: column;
 		text-align: left;
@@ -40,12 +40,12 @@
 		}
 
 		input {
-			background: var(--creme-light);
+			background: var(--creme);
 			border: 1px solid rgba(99, 72, 17, 0.3);
 		}
 
 		textarea {
-			background: var(--creme-light);
+			background: var(--creme);
 			border: 1px solid rgba(99, 72, 17, 0.3);
 			height: 10vh;
 		}
@@ -57,7 +57,7 @@
 				color: var(--brown);
 				background: var(--orange);
 				transition: var(--transition-out);
-				box-shadow: 1px 1px 2px black;
+				box-shadow: var(--heading-shadow);
 				cursor: pointer;
 				border: none;
 				font-weight: bold;

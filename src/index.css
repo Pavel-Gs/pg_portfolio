@@ -20,7 +20,7 @@
 	--page-max-width: 1280px;
 	/* shadows */
 	--shadow-3px: 0.1875rem 0.1875rem 0.1875rem var(--brown);
-	--heading-shadow: 1px 1px 2px var(--brown);
+	--heading-shadow: 1px 1px 1px black;
 	/* transitions */
 	--transition-in: 0.3s ease-in;
 	--transition-out: 0.3s ease-out;

@@ -40,4 +40,5 @@
   color: var(--brown);
   font-size: var(--fsize-logos);
   margin: 1rem 0.5rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=footerSASS.css.map */

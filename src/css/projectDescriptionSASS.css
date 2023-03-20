@@ -21,7 +21,7 @@
 }
 .project-description-section .description-div {
   color: var(--creme);
-  text-shadow: 1px 1px 1px var(--brown);
+  text-shadow: var(--heading-shadow);
   display: flex;
   align-items: center;
 }
@@ -34,7 +34,7 @@
 }
 .project-description-section p {
   color: var(--creme);
-  text-shadow: 1px 1px 1px var(--brown);
+  text-shadow: var(--heading-shadow);
   text-align: justify;
 }
 .project-description-section p a {

@@ -24,7 +24,7 @@
 
 	.description-div {
 		color: var(--creme);
-		text-shadow: 1px 1px 1px var(--brown);
+		text-shadow: var(--heading-shadow);
 		display: flex;
 		align-items: center;
 
@@ -40,7 +40,7 @@
 
 	p {
 		color: var(--creme);
-		text-shadow: 1px 1px 1px var(--brown);
+		text-shadow: var(--heading-shadow);
 		text-align: justify;
 
 		a {
