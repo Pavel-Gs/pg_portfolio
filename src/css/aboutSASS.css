@@ -1,0 +1,33 @@
+#about-section {
+  max-width: var(--page-max-width);
+  margin: 0 1rem;
+}
+#about-section div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 2rem;
+}
+#about-section div i {
+  font-size: var(--fsize-logos);
+  color: var(--yellow);
+  text-shadow: var(--heading-shadow);
+  margin-right: 0.5rem;
+}
+#about-section div h3 {
+  color: var(--yellow);
+  text-shadow: var(--heading-shadow);
+  margin: 0;
+}
+#about-section p {
+  color: var(--creme);
+  text-align: justify;
+  text-shadow: 1px 1px 1px var(--brown);
+}
+#about-section p a {
+  color: inherit;
+  text-decoration: none;
+}
+#about-section .spacer {
+  margin-bottom: 2.5rem;
+}/*# sourceMappingURL=aboutSASS.css.map */

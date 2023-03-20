@@ -1,0 +1,23 @@
+.tooltip {
+	position: relative;	/* making the .tooltip to create a container for the tooltip text */
+}
+
+.tooltip:before {
+	content: attr(tooltip-text); /* define the name for the text attribute */
+	position: absolute;
+	top: 0;
+	transform: translateY(-100%) translateX(-40%);
+	background: rgba(102, 98, 90, 0.95);
+	color: var(--creme);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+	border-radius: 0.25rem;;
+	padding: 0.5rem;
+	width: 80px;
+	text-align: center;
+	display: none; /* hide by default */
+}
+
+.tooltip:hover:before {
+	display: block;
+	z-index: 1;
+}

@@ -1,0 +1,39 @@
+#about-section {
+	max-width: var(--page-max-width);
+	margin: 0 1rem;
+
+	div {
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		margin-top: 2rem;
+
+		i {
+			font-size: var(--fsize-logos);
+			color: var(--yellow);
+			text-shadow: var(--heading-shadow);
+			margin-right: 0.5rem;
+		}
+
+		h3 {
+			color: var(--yellow);
+			text-shadow: var(--heading-shadow);
+			margin: 0;
+		}
+	}
+
+	p {
+		color: var(--creme);
+		text-align: justify;
+		text-shadow: 1px 1px 1px var(--brown);
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+
+	.spacer {
+		margin-bottom: 2.5rem;
+	}
+}

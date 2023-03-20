@@ -1,0 +1,32 @@
+/* CSS VARIABLES */
+:root {
+	/* colors */
+	--brown: #634811;
+	--creme: #FCEAC5;
+	--creme-light: #fdf3de;
+	--creme-light-transparent: #fceac590;
+	--yellow: #E3A427;
+	--yellow-light: #f4b330;
+	--grey: #66625A;
+	--orange: #B3811E;
+	/* font size */
+	--fsize-hero: 3rem;
+	--fsize-icons: 2rem;
+	--fsize-logos: 1.625rem;
+	/* letter spacing */
+	--spacing-big: 0.3125rem;
+	--spacing-small: 0.125rem;
+	/* widths */
+	--page-max-width: 1280px;
+	/* shadows */
+	--shadow-3px: 0.1875rem 0.1875rem 0.1875rem var(--brown);
+	--heading-shadow: 1px 1px 2px var(--brown);
+	/* transitions */
+	--transition-in: 0.3s ease-in;
+	--transition-out: 0.3s ease-out;
+}
+
+/* GLOBAL STYLES */
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

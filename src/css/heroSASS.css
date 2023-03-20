@@ -1,0 +1,74 @@
+#hero-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(99, 72, 17, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/background.jpg") center/cover no-repeat;
+}
+#hero-section main {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+}
+#hero-section main h1 {
+  color: var(--creme);
+  font-size: var(--fsize-hero);
+  letter-spacing: var(--spacing-big);
+  text-shadow: var(--shadow-3px);
+  margin: 1rem;
+}
+#hero-section main h1 span {
+  color: var(--yellow);
+}
+#hero-section main #btn-div {
+  display: flex;
+  /* react-router-dom's <Link /> component automatically adds an "a" element */
+}
+#hero-section main #btn-div .hero-btn {
+  transition: var(--transition-out);
+  box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0.9), var(--shadow-3px);
+  letter-spacing: var(--spacing-small);
+  border: 2px solid var(--creme);
+  background: none;
+  text-decoration: none;
+  width: 200px;
+  margin: 1rem;
+}
+#hero-section main #btn-div .hero-btn:active {
+  transition: var(--transition-in);
+  background: var(--creme);
+  box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0), var(--shadow-3px);
+  cursor: pointer;
+}
+#hero-section main #btn-div .hero-btn:active h2 {
+  color: var(--yellow);
+  text-shadow: none;
+}
+@media (hover: hover) {
+  #hero-section main #btn-div .hero-btn:hover {
+    transition: var(--transition-in);
+    background: var(--creme);
+    box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0), var(--shadow-3px);
+    cursor: pointer;
+  }
+  #hero-section main #btn-div .hero-btn:hover h2 {
+    color: var(--yellow);
+    text-shadow: none;
+  }
+}
+#hero-section main #btn-div .hero-btn h2 {
+  transition: var(--transition-out);
+  color: var(--creme);
+  text-decoration: none;
+  margin: 1rem;
+}
+#hero-section main h2 {
+  color: var(--yellow);
+  text-shadow: var(--shadow-3px);
+}
+#hero-section footer {
+  background: rgba(252, 234, 197, 0.7);
+  min-height: 20vh;
+  box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0.7), 0 -1px 5px 2px rgba(80, 58, 14, 0.9);
+}/*# sourceMappingURL=heroSASS.css.map */

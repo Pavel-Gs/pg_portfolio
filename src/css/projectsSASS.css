@@ -1,0 +1,96 @@
+#projects-section {
+  position: absolute;
+  bottom: 6%;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projects-section #cards-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#projects-section #cards-section .project-card {
+  background: var(--creme);
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  margin: 0 1rem;
+  padding: 1rem;
+  box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0.4), 2px 2px 4px rgb(99, 72, 17);
+  width: 300px;
+  min-height: 400px;
+}
+#projects-section #cards-section i {
+  color: var(--yellow);
+  font-size: var(--fsize-logos);
+}
+#projects-section #cards-section h2 {
+  color: var(--brown);
+}
+#projects-section #cards-section .img-div {
+  background: linear-gradient(rgba(99, 72, 17, 0.4), rgb(0, 0, 0));
+  box-shadow: inset 0 0 5px 1px rgb(0, 0, 0);
+}
+#projects-section #cards-section .img-div img {
+  display: block;
+  width: 100%;
+  opacity: 0.6;
+}
+#projects-section #cards-section .hover-div {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  text-align: center;
+}
+#projects-section #cards-section .hover-div p {
+  color: var(--brown);
+  font-weight: bold;
+}
+#projects-section #cards-section .hover-div .links-div {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+#projects-section #cards-section .hover-div .links-div i {
+  font-size: var(--fsize-icons);
+  margin: 0 0.25rem;
+}
+#projects-section #cards-section .hover-div .technologies-div {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+#projects-section #cards-section .hover-div .technologies-div i {
+  color: var(--brown);
+  font-size: 2rem;
+  margin: 0 0.25rem;
+}
+#projects-section #arrow-section {
+  display: flex;
+  margin: 1rem 0;
+}
+#projects-section #arrow-section .fa-square-caret-left,
+#projects-section #arrow-section .fa-square-caret-right {
+  color: var(--creme);
+  transition: var(--transition-out);
+  font-size: var(--fsize-icons);
+  cursor: pointer;
+  text-shadow: 2px 2px 2px rgba(99, 72, 17, 0.9);
+  margin: 0 0.5rem;
+}
+#projects-section #arrow-section .fa-square-caret-left:active,
+#projects-section #arrow-section .fa-square-caret-right:active {
+  color: var(--yellow);
+  transition: var(--transition-in);
+}
+@media (hover: hover) {
+  #projects-section #arrow-section .fa-square-caret-left:hover,
+  #projects-section #arrow-section .fa-square-caret-right:hover {
+    color: var(--yellow-light);
+    transition: var(--transition-in);
+  }
+}/*# sourceMappingURL=projectsSASS.css.map */

@@ -1,0 +1,46 @@
+.project-description-section {
+  max-width: var(--page-max-width);
+  margin: 0 1rem;
+}
+.project-description-section .icon-div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 2rem;
+}
+.project-description-section .icon-div i {
+  font-size: var(--fsize-logos);
+  color: var(--yellow);
+  text-shadow: var(--heading-shadow);
+  margin-right: 0.5rem;
+}
+.project-description-section .icon-div h3 {
+  color: var(--yellow);
+  text-shadow: var(--heading-shadow);
+  margin: 0.5rem 0;
+}
+.project-description-section .description-div {
+  color: var(--creme);
+  text-shadow: 1px 1px 1px var(--brown);
+  display: flex;
+  align-items: center;
+}
+.project-description-section .description-div i {
+  font-size: var(--fsize-logos);
+  margin-right: 0.5rem;
+}
+.project-description-section .description-div p {
+  margin: 0.5rem 0;
+}
+.project-description-section p {
+  color: var(--creme);
+  text-shadow: 1px 1px 1px var(--brown);
+  text-align: justify;
+}
+.project-description-section p a {
+  color: inherit;
+  text-decoration: none;
+}
+.project-description-section .spacer {
+  margin-bottom: 2.5rem;
+}/*# sourceMappingURL=projectDescriptionSASS.css.map */

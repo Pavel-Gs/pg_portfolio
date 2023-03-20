@@ -1,0 +1,110 @@
+#projects-section {
+    position: absolute; // This element "#projects-section" - is absolute. The parent "#hero-section" element must be relative, in order for "overflow: hidden" to work in the "hero" section.
+    bottom: 6%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column; // column direction keeps items centered, when the position is absolute
+    align-items: center;
+
+    #cards-section {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        .project-card {
+            background: var(--creme);
+            display: flex;
+            align-items: center;
+            justify-content: baseline;
+            flex-direction: column;
+            margin: 0 1rem;
+            padding: 1rem;
+            box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0.4), 2px 2px 4px rgba(99, 72, 17, 1);
+            width: 300px;
+            min-height: 400px;
+        }
+
+        i {
+            color: var(--yellow);
+            font-size: var(--fsize-logos);
+        }
+
+        h2 {
+            color: var(--brown);
+        }
+
+        .img-div {
+            background: linear-gradient(rgba(99, 72, 17, 0.4), rgba(0, 0, 0, 1));
+            box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 1);
+
+            img {
+                display: block; // "display: block" eliminates bottom margin
+                width: 100%;
+                opacity: 0.6;
+            }
+        }
+
+        .hover-div {
+            opacity: 0;
+            height: 0;
+            overflow: hidden;
+            text-align: center;
+
+            p {
+                color: var(--brown);
+                font-weight: bold;
+            }
+
+            .links-div {
+                display: flex;
+                justify-content: center;
+                width: 300px;
+
+                i {
+                    font-size: var(--fsize-icons);
+                    margin: 0 0.25rem;
+                }
+            }
+
+            .technologies-div {
+                display: flex;
+                justify-content: center;
+                width: 300px;
+
+                i {
+                    color: var(--brown);
+                    font-size: 2rem;
+                    margin: 0 0.25rem;
+                }
+            }
+        }
+    }
+
+    #arrow-section {
+        display: flex;
+        margin: 1rem 0;
+
+        .fa-square-caret-left,
+        .fa-square-caret-right {
+            color: var(--creme);
+            transition: var(--transition-out);
+            font-size: var(--fsize-icons);
+            cursor: pointer;
+            text-shadow: 2px 2px 2px rgba(99, 72, 17, 0.9);
+            margin: 0 0.5rem;
+
+            &:active {
+                color: var(--yellow);
+                transition: var(--transition-in);
+            }
+
+            @media (hover: hover) {
+                &:hover {
+                    color: var(--yellow-light);
+                    transition: var(--transition-in);
+                }
+            }
+        }
+    }
+}

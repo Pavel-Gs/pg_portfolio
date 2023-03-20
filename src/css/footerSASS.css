@@ -1,0 +1,43 @@
+#footer-section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* react-router-dom's <Link /> component automatically adds an "a" element */
+}
+#footer-section #footer-btn {
+  color: var(--creme);
+  border: none;
+  background: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 1.5rem;
+  padding: 0.5rem;
+}
+#footer-section #footer-btn:active i, #footer-section #footer-btn:active h4 {
+  transition: var(--transition-in);
+  color: var(--yellow-light);
+}
+@media (hover: hover) {
+  #footer-section #footer-btn:hover i, #footer-section #footer-btn:hover h4 {
+    transition: var(--transition-in);
+    color: var(--yellow-light);
+  }
+}
+#footer-section #footer-btn i {
+  transition: var(--transition-out);
+  text-shadow: var(--heading-shadow);
+}
+#footer-section #footer-btn h4 {
+  transition: var(--transition-out);
+  text-shadow: var(--heading-shadow);
+  margin: 0;
+}
+#footer-section #icons-container i {
+  color: var(--brown);
+  font-size: var(--fsize-logos);
+  margin: 1rem 0.5rem;
+}/*# sourceMappingURL=footerSASS.css.map */

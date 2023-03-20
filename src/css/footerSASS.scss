@@ -1,0 +1,52 @@
+#footer-section {
+	position: absolute;
+	display: flex;
+	flex-direction: column; // column direction keeps items centered, when the position is absolute
+	align-items: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	/* react-router-dom's <Link /> component automatically adds an "a" element */
+	#footer-btn {
+		color: var(--creme);
+		border: none;
+		background: none;
+		text-align: center;
+		text-decoration: none;
+		margin: 1.5rem;
+		padding: 0.5rem;
+
+		&:active {
+			i, h4 {
+				transition: var(--transition-in);
+				color: var(--yellow-light);
+			}
+		}
+		@media (hover: hover) {
+			&:hover {
+				i, h4 {
+					transition: var(--transition-in);
+					color: var(--yellow-light);
+				}
+			}
+		}
+		i {
+			transition: var(--transition-out);
+			text-shadow: var(--heading-shadow);
+		}
+		h4 {
+			transition: var(--transition-out);
+			text-shadow: var(--heading-shadow);
+			margin: 0;
+		}
+	}
+
+	#icons-container {
+		i {
+			color: var(--brown);
+			font-size: var(--fsize-logos);
+			margin: 1rem 0.5rem;
+		}
+	}
+}
