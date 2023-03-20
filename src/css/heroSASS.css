@@ -63,6 +63,10 @@
   text-decoration: none;
   margin: 1rem;
 }
+#hero-section main h2 {
+  color: var(--yellow);
+  text-shadow: var(--shadow-3px);
+}
 #hero-section footer {
   background: rgba(179, 129, 30, 0.8);
   min-height: 20vh;

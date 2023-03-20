@@ -5,7 +5,7 @@ export const Contacts = () => {
 			<i className='fa-solid fa-envelope' />
 			<h3>CONTACT FORM</h3>
 		</div>
-		<form action='https://formsubmit.co/pavelgen@gmail.com' method='POST'>
+		<form action='https://formsubmit.co/1f02d58477fe20e850b934af3418c8bb' method='POST'>
 			<label htmlFor='name'>Your name</label>
 			<input type='text' name='name' required />
 			<label htmlFor='email'>Your Email</label>

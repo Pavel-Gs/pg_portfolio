@@ -71,6 +71,11 @@
 				}
 			}
 		}
+
+		h2 {
+			color: var(--yellow);
+			text-shadow: var(--shadow-3px);
+		}
 		// "ABOUT" and "CONTACTS" sections are styled from their corresponding files
 	}
 
