@@ -6,7 +6,7 @@ Here I've collected all of my student projects (both of them, haha) and organize
 
 ## Technologies used
 ### `React library`
-Mapping/iterating through the components. Also, useState and useEffect hooks are used extensively, which allows for the dynamic seamless update of the content.
+Mapping/iterating through the components, a bit of prop drilling as well. Also, useState and useEffect hooks are used extensively, which allows for the dynamic seamless update of the content.
 
 ### `React-router-dom`
 As far as I'm aware, there is no way to create routes natively in React. But there are libraries, which can provide that functionality. React-router is one of them.
