@@ -2,25 +2,25 @@
 	max-width: var(--page-max-width);
 	margin: 0 1rem;
 
-	.icon-div {
-		display: flex;
-		justify-content: left;
-		align-items: center;
-		margin-top: 2rem;
+		.icon-div {
+			display: flex;
+			justify-content: left;
+			align-items: center;
+			margin-top: 2rem;
 
-		i {
-			font-size: var(--fsize-logos);
-			color: var(--yellow);
-			text-shadow: var(--heading-shadow);
-			margin-right: 0.5rem;
-		}
+			i {
+				font-size: var(--fsize-logos);
+				color: var(--yellow);
+				text-shadow: var(--heading-shadow);
+				margin-right: 0.5rem;
+			}
 
-		h3 {
-			color: var(--yellow);
-			text-shadow: var(--heading-shadow);
-			margin: 0.5rem 0;
+			h3 {
+				color: var(--yellow);
+				text-shadow: var(--heading-shadow);
+				margin: 0.5rem 0;
+			}
 		}
-	}
 
 	.description-div {
 		color: var(--creme);
@@ -43,12 +43,16 @@
 		text-shadow: var(--heading-shadow);
 		text-align: justify;
 
+		@media screen and (max-width: 400px) {
+			text-align: left;
+		}
+
 		a {
 			color: inherit;
 			text-decoration: none;
 		}
 	}
-	
+
 	.spacer {
 		margin-bottom: 2.5rem;
 	}

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 // PROJECTS FUNCTION
-export const Projects = ({ idProp, setActiveIndexProp, rollDownProp, iClass, h2Text, imgSrc, imgAlt, pText, infoPath, tipInfo, iInfoClass, tipWeb, aWebHref, iLinkWebClass, tipGit, aGitHref, iLinkGitClass, tipReact, iReactClass, tipJS, iJSClass, tipSASS, iSASSClass, tipCSS, iCSSClass, tipHTML, iHTMLClass }) => {
+export const Projects = ({ idProp, setActiveIndexProp, rollDownProp, widthProp, iClass, h2Text, imgSrc, imgAlt, pText, infoPath, tipInfo, iInfoClass, tipWeb, aWebHref, iLinkWebClass, tipGit, aGitHref, iLinkGitClass, tipReact, iReactClass, tipJS, iJSClass, tipSASS, iSASSClass, tipCSS, iCSSClass, tipHTML, iHTMLClass }) => {
 	// if a value from cardsValues is absent - apply "display: none" only to that particular element
 	const [visibility0, setVisibility0] = useState({});
 	useEffect(() => { if (!infoPath) { setVisibility0({ display: 'none' }) }; }, [infoPath]);
@@ -22,11 +22,22 @@ export const Projects = ({ idProp, setActiveIndexProp, rollDownProp, iClass, h2T
 	useEffect(() => { if (!iCSSClass) { setVisibility6({ display: 'none' }) }; }, [iCSSClass]);
 	const [visibility7, setVisibility7] = useState({});
 	useEffect(() => { if (!iHTMLClass) { setVisibility7({ display: 'none' }) }; }, [iHTMLClass]);
+
+	// get the inner height
+	const [height, setHeight] = useState(window.innerHeight);
+	useEffect(() => {
+		const updateWindowHeight = () => setHeight(window.innerHeight);
+		window.addEventListener('resize', updateWindowHeight);
+		return () => window.removeEventListener('resize', updateWindowHeight);
+	}, [height]); // re-run on height change
+
 	// showDiv function
 	const [display, setDisplay] = useState({});
 	const [toggleClass, setToggleClass] = useState(false);
 	const showDiv = () => {
-		setDisplay({ opacity: '1', height: '180px', transition: '0.4s ease-in', overflow: 'hidden' });
+		if (widthProp >= 385 || height >= 750) { setDisplay({ opacity: '1', height: '180px', transition: '0.4s ease-in', overflow: 'hidden' }); };
+		if (widthProp < 385 || height < 750) { setDisplay({ opacity: '1', height: '140px', transition: '0.4s ease-in', overflow: 'hidden' }); };
+		if (height <= 450 || (widthProp <= 300 && height<= 530)) { setDisplay({ opacity: '1', height: '120px', transition: '0.4s ease-in', overflow: 'hidden' }); };
 		setToggleClass(true);
 	};
 	// hideDiv function
@@ -35,7 +46,7 @@ export const Projects = ({ idProp, setActiveIndexProp, rollDownProp, iClass, h2T
 		setToggleClass(false);
 	};
 	// define the current active index
-	let x = parseInt(idProp)+2; // Passed down here from the <Hero /> component. Then - converted to an integer. Then - added 2, so taken active indexes (1 and 2) are untouched.
+	let x = parseInt(idProp) + 2; // Passed down here from the <Hero /> component. Then - converted to an integer. Then - added 2, so taken active indexes (1 and 2) are untouched.
 
 	return (<div className='project-card' onMouseEnter={() => showDiv()} onMouseLeave={() => hideDiv()}>
 		<i className={!toggleClass ? iClass : 'fa-solid fa-grip-lines'} />

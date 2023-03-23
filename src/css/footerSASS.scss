@@ -16,6 +16,8 @@
 		text-decoration: none;
 		margin: 1.5rem;
 		padding: 0.5rem;
+		@media screen and (max-height: 700px) { margin: 0.5rem; }
+		@media screen and (max-height: 400px) { margin: -0.5rem; }
 
 		&:active {
 			i, h4 {

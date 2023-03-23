@@ -23,15 +23,22 @@
 	}
 
 	form {
-		background: rgba(252, 234, 197, 0.85);
+		background: rgba(252, 234, 197, 0.8);
 		display: flex;
 		flex-direction: column;
 		text-align: left;
 		box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0.4), 2px 2px 4px rgb(51, 37, 9);
-		width: 45vw;
-		max-width: 600px;
+		width: 600px;
 		margin-bottom: 2rem;
 		padding: 1rem;
+
+		@media screen and (max-width: 900px) {
+			width: 70vw;
+		}
+
+		@media screen and (max-width: 400px) {
+			width: auto;
+		}
 
 		label {
 			color: var(--brown);

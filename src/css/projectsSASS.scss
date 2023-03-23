@@ -1,110 +1,131 @@
 #projects-section {
-    position: absolute; // This element "#projects-section" - is absolute. The parent "#hero-section" element must be relative, in order for "overflow: hidden" to work in the "hero" section.
-    bottom: 6%;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column; // column direction keeps items centered, when the position is absolute
-    align-items: center;
+	position: absolute; // This element "#projects-section" - is absolute. The parent "#hero-section" element must be relative, in order for "overflow: hidden" to work in the "hero" section.
+	bottom: 6%;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column; // column direction keeps items centered, when the position is absolute
+	align-items: center;
+	@media screen and (max-height: 600px) { bottom: 8%; }
+	@media screen and (max-height: 450px) { bottom: 12%; }
 
-    #cards-section {
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+	#cards-section {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
 
-        .project-card {
-            background: var(--creme);
-            display: flex;
-            align-items: center;
-            justify-content: baseline;
-            flex-direction: column;
-            margin: 0 1rem;
-            padding: 1rem;
-            box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0.4), 2px 2px 4px rgba(99, 72, 17, 1);
-            width: 300px;
-            min-height: 400px;
-        }
+		.project-card {
+			background: var(--creme);
+			display: flex;
+			align-items: center;
+			justify-content: baseline;
+			flex-direction: column;
+			margin: 0 1rem;
+			padding: 1rem;
+			box-shadow: inset 0 0 4px 1px rgba(99, 72, 17, 0.4), 2px 2px 4px rgba(99, 72, 17, 1);
+			width: 300px;
+			min-height: 400px;
+			@media screen and (max-width: 385px), (max-height: 750px) { width: 250px; min-height: 320px; }
+			@media screen and (max-width: 385px), (max-height: 650px) { min-height: 260px; }
+			@media screen and (max-height: 500px), (max-width: 400px) and (max-height: 600px) { min-height: 180px; }
+			@media screen and (max-width: 800px) and (max-height: 600px) { min-height: 160px; }
+			@media screen and (max-width: 300px) { width: 200px; }
+			@media screen and (max-height: 450px), (max-width: 300px) and (max-height: 530px) { min-height: 42px; }
+		}
 
-        i {
-            color: var(--yellow);
-            font-size: var(--fsize-logos);
-        }
+		i {
+			color: var(--yellow);
+			font-size: var(--fsize-logos);
+			@media screen and (max-width: 385px), (max-height: 750px) { line-height: 0; }
+		}
 
-        h2 {
-            color: var(--brown);
-        }
+		h2 {
+			color: var(--brown);
+			text-align: center;
+			@media screen and (max-width: 385px), (max-height: 750px) { font-size: 1.25rem; line-height: 1; }
+			@media screen and (max-height: 450px), (max-width: 300px) and (max-height: 530px) { font-size: 1rem; }
+		}
 
-        .img-div {
-            background: linear-gradient(rgba(99, 72, 17, 0.4), rgba(0, 0, 0, 1));
-            box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 1);
+		.img-div {
+			background: linear-gradient(rgba(99, 72, 17, 0.4), rgba(0, 0, 0, 1));
+			box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 1);
+			@media screen and (max-height: 750px) { width: 85%; }
+			@media screen and (max-width: 300px), (max-height: 650px) { width: 50%; }
+			@media screen and (max-height: 500px), (max-width: 400px) and (max-height: 600px) { display: none; }
 
-            img {
-                display: block; // "display: block" eliminates bottom margin
-                width: 100%;
-                opacity: 0.6;
-            }
-        }
+			img {
+				display: block; // "display: block" eliminates bottom margin
+				width: 100%;
+				opacity: 0.6;
+			}
+		}
 
-        .hover-div {
-            opacity: 0;
-            height: 0;
-            overflow: hidden;
-            text-align: center;
+		p {
+			@media screen and (max-height: 450px), (max-width: 300px) and (max-height: 530px) { display: none; }
+		}
 
-            p {
-                color: var(--brown);
-                font-weight: bold;
-            }
+		.hover-div {
+			opacity: 0;
+			height: 0;
+			overflow: hidden;
+			text-align: center;
 
-            .links-div {
-                display: flex;
-                justify-content: center;
-                width: 300px;
+			p {
+				color: var(--brown);
+				font-weight: bold;
+			}
 
-                i {
-                    font-size: var(--fsize-icons);
-                    margin: 0 0.25rem;
-                }
-            }
+			.links-div {
+				display: flex;
+				justify-content: center;
+				width: 300px;
+				@media screen and (max-height: 450px), (max-width: 300px) and (max-height: 530px) { margin-top: 3.5rem; }
 
-            .technologies-div {
-                display: flex;
-                justify-content: center;
-                width: 300px;
+				i {
+					font-size: var(--fsize-icons);
+					margin: 0 0.25rem;
+				}
+			}
 
-                i {
-                    color: var(--brown);
-                    font-size: 2rem;
-                    margin: 0 0.25rem;
-                }
-            }
-        }
-    }
+			.technologies-div {
+				display: flex;
+				justify-content: center;
+				width: 300px;
+				@media screen and (max-height: 450px), (max-width: 300px) and (max-height: 530px) { margin-top: 1.5rem; }
 
-    #arrow-section {
-        display: flex;
-        margin: 1rem 0;
+				i {
+					color: var(--brown);
+					font-size: 2rem;
+					margin: 0 0.25rem;
+				}
+			}
+		}
+	}
 
-        .fa-square-caret-left,
-        .fa-square-caret-right {
-            color: var(--creme);
-            transition: var(--transition-out);
-            font-size: var(--fsize-icons);
-            cursor: pointer;
-            text-shadow: 2px 2px 2px rgba(99, 72, 17, 0.9);
-            margin: 0 0.5rem;
+	#arrow-section {
+		display: flex;
+		margin: 1rem 0;
 
-            &:active {
-                color: var(--yellow);
-                transition: var(--transition-in);
-            }
+		.fa-square-caret-left,
+		.fa-square-caret-right {
+			color: var(--creme);
+			transition: var(--transition-out);
+			font-size: var(--fsize-icons);
+			cursor: pointer;
+			text-shadow: 2px 2px 2px rgba(99, 72, 17, 0.9);
+			margin: 0 0.5rem;
 
-            @media (hover: hover) {
-                &:hover {
-                    color: var(--yellow-light);
-                    transition: var(--transition-in);
-                }
-            }
-        }
-    }
+			&:active {
+				color: var(--yellow);
+				transition: var(--transition-in);
+			}
+
+			@media (hover: hover) {
+				&:hover {
+					color: var(--yellow-light);
+					transition: var(--transition-in);
+				}
+			}
+		}
+	}
 }

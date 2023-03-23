@@ -65,11 +65,11 @@ export const Hero = () => {
 	const [width, setWidth] = useState(window.innerWidth);
 	useEffect(() => {
 		const updateWindowWidth = () => setWidth(window.innerWidth);
-		window.addEventListener("resize", updateWindowWidth);
+		window.addEventListener('resize', updateWindowWidth);
 		if (width >= 1200) { setCardLowIndex(1); setCardHighIndex(3); }; // display three cards
 		if (width < 1200) { setCardLowIndex(1); setCardHighIndex(2); }; // display two cards
 		if (width <= 800) { setCardLowIndex(1); setCardHighIndex(1); }; // display one card
-		return () => window.removeEventListener("resize", updateWindowWidth);
+		return () => window.removeEventListener('resize', updateWindowWidth);
 	}, [width]); // re-run on width change
 
 	// manage the visibility of the slider's arrows
@@ -82,7 +82,7 @@ export const Hero = () => {
 
 	return (<section id='hero-section'>
 		<main>
-			<h1><span>PG's</span> portfolio (work in progress)</h1>
+			<h1><span>PG's</span> portfolio</h1>
 			<div id='btn-div'>
 				<Link className='hero-btn' to='/about' onClick={() => { setActiveIndex(1); rollDown(); }}><h2>ABOUT</h2></Link>
 				<Link className='hero-btn' to='/contacts' onClick={() => { setActiveIndex(2); rollDown(); }}><h2>CONTACTS</h2></Link>
@@ -99,7 +99,7 @@ export const Hero = () => {
 		<section id='projects-section' style={display} >
 			<div id='cards-section'>
 				{cardsValues.filter((i) => i.id >= cardLowIndex && i.id <= cardHighIndex).map((i) => {
-					return (<Projects {...i} key={i.id} idProp={i.id} setActiveIndexProp={setActiveIndex} rollDownProp={rollDown}/>)
+					return (<Projects {...i} key={i.id} idProp={i.id} setActiveIndexProp={setActiveIndex} rollDownProp={rollDown} widthProp={width} />)
 				})}
 			</div>
 			<div id='arrow-section'>

@@ -24,6 +24,11 @@
   text-align: justify;
   text-shadow: var(--heading-shadow);
 }
+@media screen and (max-width: 400px) {
+  #about-section p {
+    text-align: left;
+  }
+}
 #about-section p a {
   color: inherit;
   text-decoration: none;

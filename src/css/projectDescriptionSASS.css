@@ -37,6 +37,11 @@
   text-shadow: var(--heading-shadow);
   text-align: justify;
 }
+@media screen and (max-width: 400px) {
+  .project-description-section p {
+    text-align: left;
+  }
+}
 .project-description-section p a {
   color: inherit;
   text-decoration: none;

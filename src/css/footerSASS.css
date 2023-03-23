@@ -17,6 +17,16 @@
   margin: 1.5rem;
   padding: 0.5rem;
 }
+@media screen and (max-height: 700px) {
+  #footer-section #footer-btn {
+    margin: 0.5rem;
+  }
+}
+@media screen and (max-height: 400px) {
+  #footer-section #footer-btn {
+    margin: -0.5rem;
+  }
+}
 #footer-section #footer-btn:active i, #footer-section #footer-btn:active h4 {
   transition: var(--transition-in);
   color: var(--yellow-light);
