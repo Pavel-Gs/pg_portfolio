@@ -6,7 +6,7 @@ export const Project3 = () => {
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-toolbox' /><h3>TECHNOLOGIES</h3></div>
 		<div className='description-div'><i className='fa-brands fa-react' /><p>React library: mapping/iterating through the components, a bit of prop drilling as well. Also, useState and useEffect hooks are used extensively, which allows for the dynamic seamless update of the content.</p></div>
-		<div className='description-div'><i className='fa-brands fa-react' /><p>React-router-dom: as far as I'm aware, there is no way to create routes natively in React. But there are libraries, which can provide that functionality. React-router is one of them.</p></div>
+		<div className='description-div'><i className='fa-solid fa-route' /><p>React-router-dom: as far as I'm aware, there is no way to create routes natively in React. But there are libraries, which can provide that functionality. React-router is one of them.</p></div>
 		<div className='description-div'><i className='fa-brands fa-sass' /><p>SASS: I prefer to use SASS instead of regular CSS, primarily due to the nesting capability (at the moment of making that app, "styled react components" did not have full VSCode support).</p></div>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-link' /><h3>INTEGRATIONS</h3></div>

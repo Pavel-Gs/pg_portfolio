@@ -46,7 +46,7 @@ export const Projects = ({ idProp, setActiveIndexProp, rollDownProp, widthProp, 
 		setToggleClass(false);
 	};
 	// define the current active index
-	let x = parseInt(idProp) + 2; // Passed down here from the <Hero /> component. Then - converted to an integer. Then - added 2, so taken active indexes (1 and 2) are untouched.
+	let x = parseInt(idProp) + 2; // Passed down here from the <Hero /> component. Then - converted to an integer. Then, added 2, so taken active indexes (1 and 2) are untouched.
 
 	return (<div className='project-card' onMouseEnter={() => showDiv()} onMouseLeave={() => hideDiv()}>
 		<i className={!toggleClass ? iClass : 'fa-solid fa-grip-lines'} />
