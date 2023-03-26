@@ -18,6 +18,7 @@ import { Project3 } from './components/Project3.js';
 import { Project4 } from './components/Project4.js';
 
 // APP FUNCTION
+// for routes to work (or rather, not to break on page reload), create "_redirects" file in the "public" folder with "/*  /index.html  200"
 export default function App() {
 	return (<BrowserRouter><Routes>
 		<Route path='/' element={<Hero />}>
