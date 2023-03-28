@@ -14,5 +14,9 @@ export const Project1 = () => {
 		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Elastic Email: this integration provides email tracking and marketing metrics, such as clicks, time, location, device, etc...</p></div>
 		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>FormSubmit: as the name suggests, that integration provides easy form-submission functionality and automated replies.</p></div>
 		<p className='spacer' />
+		<div className='icon-div'><h3>LINKS</h3></div>
+		<div className='description-div'><i className='fa-solid fa-globe' /><p><a href='https://html-quotes.netlify.app/' rel='noopener noreferrer' target='_blank'>Published site</a></p></div>
+		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs/html_emails' rel='noopener noreferrer' target='_blank'>Git repo</a></p></div>
+		<p className='spacer' />
 	</section>);
 };

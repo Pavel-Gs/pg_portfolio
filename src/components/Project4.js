@@ -11,5 +11,9 @@ export const Project4 = () => {
 		<div className='description-div'><i className='fa-solid fa-file-code' /><p>HTML: the main table, table headers and table rows. Similar to HTML emails.</p></div>
 		<div className='description-div'><i className='fa-brands fa-css3-alt' /><p>CSS: simple inline styling, similar to HTML emails.</p></div>
 		<p className='spacer' />
+		<div className='icon-div'><h3>LINKS</h3></div>
+		<div className='description-div'><i className='fa-solid fa-globe' /><p><a href='https://pgs-resume.netlify.app/' rel='noopener noreferrer' target='_blank'>Published site</a></p></div>
+		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs/my_resume' rel='noopener noreferrer' target='_blank'>Git repo</a></p></div>
+		<p className='spacer' />
 	</section>);
 };

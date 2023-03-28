@@ -14,5 +14,8 @@ export const Project3 = () => {
 		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>FormSubmit: as the name suggests, that integration provides easy form-submission functionality and automated replies.</p></div>
 		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Font Awesome: provides various icons and symbols, which could be styled right in the code.</p></div>
 		<p className='spacer' />
+		<div className='icon-div'><h3>LINKS</h3></div>
+		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs/pg_portfolio' rel='noopener noreferrer' target='_blank'>Git repo</a></p></div>
+		<p className='spacer' />
 	</section>);
 };
