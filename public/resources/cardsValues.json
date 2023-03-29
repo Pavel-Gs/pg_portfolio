@@ -82,7 +82,7 @@
 	},
 	{
 		"iClass": "fa-solid fa-angle-up",
-		"h2Text": "My resume",
+		"h2Text": "Skill sheet (web)",
 		"imgSrc": "./resources/resume.jpg",
 		"imgAlt": "project thumbnail",
 		"pText": "Made with HTML tables. The reason - that way it can be copy-pasted into MS Word for further editing and saved as *.pdf.",
