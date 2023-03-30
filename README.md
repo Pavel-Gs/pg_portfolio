@@ -1,6 +1,6 @@
 # PG's portfolio
 
-Here I've collected all of my student projects (both of them, haha) and organized them via cards, with links and descriptions. The card's info is stored in the remote *.json file, which is fetched and mapped when loaded.
+Here I've collected all of my web projects (both of them, haha) and organized them via cards, with links and descriptions. The card's info is stored in the remote *.json file, which is fetched and mapped when loaded.
 
 [Published site |==>](https://pgs-portfolio.netlify.app/)
 
