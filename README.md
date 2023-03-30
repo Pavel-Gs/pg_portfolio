@@ -5,7 +5,7 @@ Here I've collected all of my web projects (both of them, haha) and organized th
 [Published site |==>](https://pgs-portfolio.netlify.app/)
 
 ## Technologies used
-### `React library`
+### `React`
 Mapping/iterating through the components, a bit of prop drilling as well. Also, useState and useEffect hooks are used extensively, which allows for the dynamic seamless update of the content.
 
 ### `React-router-dom`
