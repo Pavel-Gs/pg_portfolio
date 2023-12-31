@@ -109,7 +109,7 @@
 	},
 	{
 		"iClass": "fa-solid fa-angle-up",
-		"h2Text": "Upcoming project 1",
+		"h2Text": "Upcoming project 2",
 		"imgSrc": "./resources/upcoming.jpg",
 		"imgAlt": "project thumbnail",
 		"pText": "More projects are on the way.",
@@ -136,7 +136,7 @@
 	},
 	{
 		"iClass": "fa-solid fa-angle-up",
-		"h2Text": "Upcoming project 2",
+		"h2Text": "Upcoming project 3",
 		"imgSrc": "./resources/upcoming.jpg",
 		"imgAlt": "project thumbnail",
 		"pText": "More projects are on the way.",
