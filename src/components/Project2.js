@@ -1,7 +1,7 @@
 // PROJECT2 FUNCTION
 export const Project2 = () => {
 	return (<section className='project-description-section'>
-		<div className='icon-div'><i className='fa-solid fa-file-lines' /><h3>A LANDING PAGE</h3></div>
+		<div className='icon-div'><i className='fa-solid fa-file-lines' /><h3>LANDING PAGE</h3></div>
 		<p>This is a simple React app - a landing page for a company or a proprietor. The design idea (mostly - the layout) is taken from the "Backroads app" by John Smilga. Media-queries are set for all sizes. It's just a one-page website, made of different React components.</p>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-toolbox' /><h3>TECHNOLOGIES</h3></div>

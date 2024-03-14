@@ -28,7 +28,7 @@
 	},
 	{
 		"iClass": "fa-solid fa-angle-up",
-		"h2Text": "A landing page",
+		"h2Text": "Landing page",
 		"imgSrc": "./resources/landing.jpg",
 		"imgAlt": "project thumbnail",
 		"pText": "This is a simple React app - a one-page website for a company or a proprietor. Media-queries are set for all sizes.",
