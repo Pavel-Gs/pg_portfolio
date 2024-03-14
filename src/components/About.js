@@ -2,7 +2,7 @@
 export const About = () => {
 	return (<section id='about-section'>
 		<div><i className='fa-solid fa-briefcase' /><h3>CAREER</h3></div>
-		<p>(2023-current) Geomatics technologist, CAD technician / LST. Cadastral industry.</p>
+		<p>(2023-2024) Geomatics technologist, CAD technician / LST. Cadastral industry.</p>
 		<p>(2018-2023) Geomatics technologist / CAD technician. Self-employed.</p>
 		<p>(2014-2021) Survey assistant, party chief, CAD technician. Cadastral industry.</p>
 		<p>(2011-2013) Geomatics engineer / CAD technician. High-rise industry.</p>

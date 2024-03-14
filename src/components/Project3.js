@@ -1,21 +1,20 @@
 // PROJECT3 FUNCTION
 export const Project3 = () => {
 	return (<section className='project-description-section'>
-		<div className='icon-div'><i className='fa-solid fa-file-lines' /><h3>THIS PORTFOLIO</h3></div>
-		<p>Here I've collected all of my coding projects (both of them, haha) and organized them via cards, with links and descriptions. The card's info is stored in the remote *.json file, which is fetched and mapped when loaded.</p>
+		<div className='icon-div'><i className='fa-solid fa-file-lines' /><h3>PROJECT TRACKER</h3></div>
+		<p>This application combines the functionalities of a job tracker, time-sheets, and project database, providing a comprehensive solution for efficient project management. With its user-friendly interface and robust features, it streamlines workflow, enhances collaboration, and ensures accurate tracking of tasks and resources.</p>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-toolbox' /><h3>TECHNOLOGIES</h3></div>
-		<div className='description-div'><i className='fa-brands fa-react' /><p>React: mapping/iterating through the components, a bit of prop drilling as well. Also, useState and useEffect hooks are used extensively, which allows for the dynamic seamless update of the content.</p></div>
-		<div className='description-div'><i className='fa-solid fa-route' /><p>React-router-dom: as far as I'm aware, there is no way to create routes natively in React. But there are libraries, which can provide that functionality. React-router is one of them.</p></div>
-		<div className='description-div'><i className='fa-brands fa-sass' /><p>SASS: I prefer to use SASS instead of regular CSS, primarily due to the nesting capability (at the moment of making that app, "styled react components" did not have full VSCode support).</p></div>
+		<div className='description-div'><i className='fa-solid fa-n' /><p>NextJS: allows to create full-stack web applications with the power of React components.</p></div>
+		<div className='description-div'><i className='fa-solid fa-t' /><p>TypeScript: adds additional syntax to JavaScript and uses type inference, which provides a great tooling without additional code.</p></div>
+		<div className='description-div'><i className='fa-regular fa-file-code' /><p>Tailwind CSS: a utility-first CSS framework, that can be composed to build any design, directly in the markup.</p></div>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-link' /><h3>INTEGRATIONS</h3></div>
-		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Normalized CSS: CSS resets. From the official description: "Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing."</p></div>
-		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>FormSubmit: as the name suggests, that integration provides easy form-submission functionality and automated replies.</p></div>
-		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Font Awesome: provides various icons and symbols, which could be styled right in the code.</p></div>
+		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Clerk: this is a complete suite of embeddable UIs, flexible APIs, and admin dashboards to authenticate and manage users."</p></div>
+		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Shadcn-UI: pre-designed components that can be copied and pasted into apps; accessible, customizable and open source.</p></div>
 		<p className='spacer' />
 		<div className='icon-div'><h3>LINKS</h3></div>
-		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs/pg_portfolio' rel='noopener noreferrer' target='_blank'>Git repo</a></p></div>
+		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs' rel='noopener noreferrer' target='_blank'>Git repo (this repo is not in public access)</a></p></div>
 		<p className='spacer' />
 	</section>);
 };
