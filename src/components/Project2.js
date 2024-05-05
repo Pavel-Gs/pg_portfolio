@@ -6,7 +6,7 @@ export const Project2 = () => {
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-toolbox' /><h3>TECHNOLOGIES</h3></div>
 		<div className='description-div'><i className='fa-brands fa-react' /><p>React: mapping/iterating through the components, useState and useEffect hooks.</p></div>
-		<div className='description-div'><i className='fa-brands fa-sass' /><p>SASS: I prefer to use SASS instead of regular CSS, primarily due to the nesting capability (at the moment of making that app, "styled react components" did not have full VSCode support).</p></div>
+		<div className='description-div'><i className='fa-brands fa-sass' /><p>SASS: I prefer to use SASS instead of regular CSS, primarily due to the nesting capability.</p></div>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-link' /><h3>INTEGRATIONS</h3></div>
 		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>FormSubmit: as the name suggests, that integration provides easy form-submission functionality and automated replies.</p></div>

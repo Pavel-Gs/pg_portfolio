@@ -58,7 +58,7 @@
 		"h2Text": "Project tracker",
 		"imgSrc": "./resources/tracker.jpg",
 		"imgAlt": "project thumbnail",
-		"pText": "As a full-stack app, it combines the functionalities of a job tracker, map, time-sheets, and project database. (under construction)",
+		"pText": "As a full-stack app, it combines the functionalities of a job tracker, map, time-sheets, and project database.",
 		"infoPath": "/project3",
 		"tipInfo": "more info",
 		"iInfoClass": "fa-solid fa-circle-info",
