@@ -15,7 +15,7 @@ export const Project3 = () => {
 		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Leaflet: this is an open source JavaScript library used to build web mapping applications.</p></div>
 		<p className='spacer' />
 		<div className='icon-div'><h3>LINKS</h3></div>
-		<div className='description-div'><i className='fa-solid fa-globe' /><p><a href='https://job-tracker-chi.vercel.app/' rel='noopener noreferrer' target='_blank'>Published site</a></p></div>
+		<div className='description-div'><i className='fa-solid fa-globe' /><p><a href='https://job-tracker-pg.vercel.app/' rel='noopener noreferrer' target='_blank'>Published site</a></p></div>
 		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs' rel='noopener noreferrer' target='_blank'>Git repo (this repo is not in public access)</a></p></div>
 		<p className='spacer' />
 	</section>);
