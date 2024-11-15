@@ -16,6 +16,8 @@ import { Project1 } from './components/Project1.js';
 import { Project2 } from './components/Project2.js';
 import { Project3 } from './components/Project3.js';
 import { Project4 } from './components/Project4.js';
+import { Project5 } from './components/Project5.js';
+import { Project6 } from './components/Project6.js';
 
 // APP FUNCTION
 // for routes to work (or rather, not to break on page reload), create "_redirects" file in the "public" folder with "/*  /index.html  200"
@@ -28,6 +30,8 @@ export default function App() {
 			<Route path='/project2' element={<Project2 />} />
 			<Route path='/project3' element={<Project3 />} />
 			<Route path='/project4' element={<Project4 />} />
+			<Route path='/project5' element={<Project5 />} />
+			<Route path='/project6' element={<Project6 />} />
 		</Route>
 		<Route path='*' element={<div>Page not found</div>} />
 	</Routes></BrowserRouter>);

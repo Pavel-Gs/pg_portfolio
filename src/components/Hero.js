@@ -9,6 +9,8 @@ import { Project1 } from './Project1.js';
 import { Project2 } from './Project2.js';
 import { Project3 } from './Project3.js';
 import { Project4 } from './Project4.js';
+import { Project5 } from './Project5.js';
+import { Project6 } from './Project6.js';
 import { Projects } from './Projects.js';
 import { Footer } from './Footer.js';
 // JSON URL
@@ -100,6 +102,8 @@ export const Hero = () => {
 			{activeIndex === 4 ? <Project2 /> : null}
 			{activeIndex === 5 ? <Project3 /> : null}
 			{activeIndex === 6 ? <Project4 /> : null}
+			{activeIndex === 7 ? <Project5 /> : null}
+			{activeIndex === 8 ? <Project6 /> : null}
 		</main>
 		<footer><Footer activeIndexProp={activeIndex} rollUpProp={rollUp} rollShowProp={rollShow} setRollShowProp={setRollShow} /></footer>
 		<section id='projects-section' style={display} >

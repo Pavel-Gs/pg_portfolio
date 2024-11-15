@@ -2,7 +2,7 @@
 export const Project1 = () => {
 	return (<section className='project-description-section'>
 		<div className='icon-div'><i className='fa-solid fa-file-lines' /><h3>PROJECT TRACKER</h3></div>
-		<p>This application combines the functionalities of a job tracker, project map, time-sheets, and SQL project database, providing a comprehensive solution for efficient project management. With its user-friendly interface and robust features, it streamlines workflow, enhances collaboration, and ensures accurate tracking of tasks and resources. (Inspired by John Smilga's "Jobify")</p>
+		<p>This application combines the functionalities of a job tracker, project map, time-sheets, and SQL project database, providing a comprehensive solution for efficient project management. With its user-friendly interface and robust features, it streamlines workflow, enhances collaboration, and ensures accurate tracking of tasks and resources. (Inspired by John Smilga's "Jobify"). <br />(Note: work in progress).</p>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-toolbox' /><h3>TECHNOLOGIES</h3></div>
 		<div className='description-div'><i className='fa-solid fa-n' /><p>NextJS: allows to create full-stack web applications with the power of React components.</p></div>

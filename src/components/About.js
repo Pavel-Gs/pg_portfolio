@@ -16,7 +16,7 @@ export const About = () => {
 		<p><a href='https://www.miigaik.ru/en/' rel='noopener noreferrer' target='_blank'><i className='fa-solid fa-arrow-up-right-from-square' /> MIIGAiK</a></p>
 		<p className='spacer' />
 		<div><i className='fa-solid fa-file-lines' /><h3>CERTIFICATES</h3></div>
-		<p>Front-end web development (Codecademy)</p>
+		{/* <p>Front-end web development (Codecademy)</p> */}
 		<p>Engineering and land surveying (CBEPS)</p>
 		<p className='spacer' />
 	</section>);
