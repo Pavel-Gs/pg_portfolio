@@ -91,8 +91,8 @@ export const Hero = () => {
 				<Link className='hero-btn' to='/contacts' onClick={() => { setActiveIndex(2); rollDown(); }}><h2>CONTACTS</h2></Link>
 			</div>
 			<p style={{color: '#FCEAC5'}}>
-				{/* *I'm currently busy working on other projects. Therefore, the code and other info here may be outdated and may require some updates.<br></br>
-				Please, do not hesitate to contact me, if you have any questions. */}
+				*All apps can be accessed on (almost) all screen sizes.<br></br>
+				(including desktop, tablet and phone)
 			</p>
 			{loadingState ? <h2>Loading...</h2> : null}
 			{errorState ? <h2>Can't load the page... {errorCode}</h2> : null}
