@@ -12,7 +12,7 @@ Mapping/iterating through the components, a bit of prop drilling as well. Also, 
 As far as I'm aware, there is no way to create routes natively in React. But there are libraries, which can provide that functionality. React-router is one of them.
 
 ### `SASS`
-I prefer to use SASS instead of regular CSS, primarily due to the nesting capability (at the moment of making that app, "styled react components" did not have full VSCode support).
+I prefer to use SASS instead of regular CSS, primarily due to the nesting capability.
 
 ## Integrations
 ### `Normalized CSS`
