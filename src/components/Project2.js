@@ -2,7 +2,7 @@
 export const Project2 = () => {
 	return (<section className='project-description-section'>
 		<div className='icon-div'><i className='fa-solid fa-file-lines' /><h3>FINANCE ORGANIZER</h3></div>
-		<p>This is a full-stack MERN app. Organize and view your finances, add new expense and income entries and analyze the trends via graphs. <br />(Inspired by John Smilga's "Jobify"; Allow 30+ sec. to load due to free tier limitations). <br />(Note: work in progress).</p>
+		<p>This is a full-stack MERN app. Organize and view your finances, add new expense and income entries and analyze the trends via graphs. <br />(Inspired by John Smilga's "Jobify"; Allow 30+ sec. to load due to free tier limitations)</p>
 		<p className='spacer' />
 		<div className='icon-div'><i className='fa-solid fa-toolbox' /><h3>TECHNOLOGIES</h3></div>
 		<div className='description-div'><i className='fa-brands fa-react' /><p>React: with VITE builder; consists of client side and server side; React-router used for routing.</p></div>

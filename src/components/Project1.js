@@ -16,7 +16,7 @@ export const Project1 = () => {
 		<p className='spacer' />
 		<div className='icon-div'><h3>LINKS</h3></div>
 		<div className='description-div'><i className='fa-solid fa-globe' /><p><a href='https://job-tracker-pg.vercel.app/' rel='noopener noreferrer' target='_blank'>Published site</a></p></div>
-		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs' rel='noopener noreferrer' target='_blank'>Git repo (this repo is not in public access)</a></p></div>
+		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs/job_tracker_next' rel='noopener noreferrer' target='_blank'>Git repo</a></p></div>
 		<p className='spacer' />
 	</section>);
 };
