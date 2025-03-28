@@ -1,6 +1,6 @@
 # PG's portfolio
 
-Here I've collected all of my web projects (both of them, haha) and organized them via cards, with links and descriptions. The card's info is stored in the remote *.json file, which is fetched and mapped when loaded.
+Here I've collected all of my web projects (both of them, haha) and organized them via cards, with links and descriptions.
 
 [Published site |==>](https://pgs-portfolio.netlify.app/)
 
@@ -9,7 +9,7 @@ Here I've collected all of my web projects (both of them, haha) and organized th
 Mapping/iterating through the components, a bit of prop drilling as well. Also, useState and useEffect hooks are used extensively, which allows for the dynamic seamless update of the content.
 
 ### `React-router-dom`
-As far as I'm aware, there is no way to create routes natively in React. But there are libraries, which can provide that functionality. React-router is one of them.
+As far as I'm aware, there is no convenient way to create routes natively in React. But there are libraries, which can provide that functionality. React-router is one of them.
 
 ### `SASS`
 I prefer to use SASS instead of regular CSS, primarily due to the nesting capability.
