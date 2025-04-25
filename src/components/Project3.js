@@ -13,7 +13,7 @@ export const Project3 = () => {
 		<div className='description-div'><i className='fa-solid fa-square-share-nodes' /><p>Recharts: used for graphs.</p></div>
 		<p className='spacer' />
 		<div className='icon-div'><h3>LINKS</h3></div>
-		<div className='description-div'><i className='fa-solid fa-globe' /><p><a href='https://finance-tracker-vlqa.onrender.com/' rel='noopener noreferrer' target='_blank'>Published site</a></p></div>
+		<div className='description-div'><i className='fa-solid fa-globe' /><p><a href='https://finance-tracker-1naw.onrender.com' rel='noopener noreferrer' target='_blank'>Published site</a></p></div>
 		<div className='description-div'><i className='fa-brands fa-github' /><p><a href='https://github.com/Pavel-Gs/finance_tracker_mern' rel='noopener noreferrer' target='_blank'>Git repo</a></p></div>
 		<p className='spacer' />
 	</section>);
